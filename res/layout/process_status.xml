@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView 
+    android:text="" 
+    android:id="@+id/textView1" 
+    android:layout_height="wrap_content" android:layout_width="fill_parent"
+    android:height="300dip"></TextView>
+    <AbsoluteLayout  
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" android:id="@+id/frameLayout1">
+    <ImageView 
+    android:id="@+id/imageView1" 
+    android:src="@drawable/process"
+	android:layout_width="wrap_content" 
+	
+	android:layout_height="wrap_content" 
+	android:layout_gravity="bottom"
+	android:scaleType="fitXY"></ImageView>
+    <Button android:background="@drawable/img_btn_1" 
+    android:id="@+id/btnDec" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_x="186dip" 
+    android:layout_y="150dip"></Button>
+    <Button android:background="@drawable/close" android:id="@+id/btnClose" 
+    android:layout_height="wrap_content" android:layout_width="wrap_content" 
+    android:layout_x="274dip" android:layout_y="1dip"></Button>
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_x="8dip" 
+    android:text="tvTitle" 
+    android:id="@+id/tvTitle" 
+    android:layout_width="wrap_content" 
+    android:layout_y="6dip"></TextView>
+	</AbsoluteLayout >
+</LinearLayout>
